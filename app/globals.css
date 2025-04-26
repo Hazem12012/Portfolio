@@ -1,0 +1,29 @@
+/** @format */
+
+@import "tailwindcss";
+*{
+  color:#fff;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+:root {
+  /* --main-color:#00ADB5;
+  --background: #222831;
+  --Title-Text: #EEEEEE;
+  --paragraph-Text: #BBBCBF;
+  --button-background:#333841; */
+
+  --background-color: #000319;
+}
+.main_section {
+  background-color: var(--background-color);
+}
+.image_section{
+  background-image:url("../public/main\ Image.png"); /*Demo image*/
+  background-size: 50%;
+  background-repeat: no-repeat;
+  top:30%;
+  left:60%;
+}
